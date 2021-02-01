@@ -104,13 +104,13 @@ CobrasEscadas.jogar = {
             var $cell = $("#cell_" + currentPosition);
             if (screen.width < 1290) {
                 $("#player" + idOfplayerTurn).css({
-                    'left': $cell.position().left + 248,
+                    'left': $cell.position().left + 310,
                     'top': $cell.position().top + 120
                 });
             } else {
                 $("#player" + idOfplayerTurn).css({
-                    'left': $cell.position().left + 550,
-                    'top': $cell.position().top + 110
+                    'left': $cell.position().left + 630,
+                    'top': $cell.position().top + 120
                 });
             }
 
