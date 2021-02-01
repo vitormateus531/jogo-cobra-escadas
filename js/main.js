@@ -103,7 +103,7 @@ CobrasEscadas.jogar = {
             //$("#player" + idOfplayerTurn).appendTo("#cell_" + currentPosition);
             var $cell = $("#cell_" + currentPosition);
             $("#player" + idOfplayerTurn).css({
-                'left': $cell.position().left + 30,
+                'left': $cell.position().left + 100,
                 'top': $cell.position().top + 35
             });
             $("#playerLegend" + idOfplayerTurn).find('span').text(currentPosition); //currentPosition  

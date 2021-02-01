@@ -3,6 +3,7 @@ body{
    background:#4C1E21 url('https://img.itch.zone/aW1nLzE3MjgzMzQuanBn/original/w6BZFE.jpg') no-repeat center center / cover !important;
    background-size:100% 140%;
    background-repeat:no-repeat;
+   overflow-x:hidden;
 }
 
 .card{
@@ -92,7 +93,7 @@ body{
       border-bottom: 3px solid rgba(40, 117, 29, 0.5);
       text-shadow: 2px 2px 1px #348628, -2px 2px 1px #348628, 2px -2px 1px #348628, -2px -2px 1px #348628, 0px 2px 1px #348628, 0px -2px 1px #348628, 0px 4px 1px #1d4c16, 2px 4px 1px #1d4c16, -2px 4px 1px #1d4c16;
       position:absolute;
-      margin-left:47%;
+      margin-left:-340px;
       margin-top:810px;
   }
   
@@ -113,7 +114,7 @@ body{
     float: left;
     margin-left: 33px;
     margin-top: 35px;
-    border:1px solid;
+    /*border:1px solid; */
   }
   
 	.row:after,.row div:after,.jogador:after,#tabuleiro:after, #statistics:after {
@@ -150,8 +151,8 @@ body{
 	  height: 30px;
 	  border-radius: 20px;
 	  position: absolute;
-	  top: 35px;
-	  left: 30px;
+	  top: -145px;
+	  left: 480px;
 	  border: 1px solid #f0f0f0;
 	  box-shadow: -1px -1px 16px 1px #666, 1px 1px 16px 1px #bbb;
 	  -webkit-transition: left 3s, top 3s; /* For Safari 3.1 to 6.0 */
@@ -177,8 +178,8 @@ body{
         border-bottom: 3px solid rgba(40, 117, 29, 0.5);
         text-shadow: 2px 2px 1px #348628, -2px 2px 1px #348628, 2px -2px 1px #348628, -2px -2px 1px #348628, 0px 2px 1px #348628, 0px -2px 1px #348628, 0px 4px 1px #1d4c16, 2px 4px 1px #1d4c16, -2px 4px 1px #1d4c16;
         position:absolute;
-        margin-left:43%;
-        margin-top:16px;
+        margin-left:10%;
+        margin-top:116px;
     }
   }
 
