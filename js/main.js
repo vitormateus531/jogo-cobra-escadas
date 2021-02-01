@@ -83,6 +83,9 @@ CobrasEscadas.jogar = {
 
         if (currentPosition >= 100) {
             currentPosition = 100;
+            swal("Ganhou!", "Jogador "+(idOfplayerTurn + 1)+" ganhou!", "success", {
+                button: false,
+            });
             $("#player" + idOfplayerTurn).appendTo("#cell_" + currentPosition);
             $("#playerLegend" + idOfplayerTurn).find('span').text('Ganhou!'); //currentPosition
             $("#jogar").attr('disabled', 'disabled');
