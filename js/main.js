@@ -103,7 +103,7 @@ CobrasEscadas.jogar = {
             //$("#player" + idOfplayerTurn).appendTo("#cell_" + currentPosition);
             var $cell = $("#cell_" + currentPosition);
             $("#player" + idOfplayerTurn).css({
-                'left': $cell.position().left + 100,
+                'left': $cell.position().left + 840,
                 'top': $cell.position().top + 35
             });
             $("#playerLegend" + idOfplayerTurn).find('span').text(currentPosition); //currentPosition  
@@ -114,6 +114,8 @@ CobrasEscadas.jogar = {
             $('#dice').attr("src", imgSrc);*/
         }
 
+        $('#dado1').html(dado1);
+        $('#dado2').html(dado2);
         console.log('dado 1: ' + dado1 + ' e dado 2: ' + dado2);
         console.log(currentPosition);
         CobrasEscadas.jogador.QtdJogadores[idOfplayerTurn].posicao = currentPosition;

@@ -102,6 +102,37 @@ body{
     box-shadow: 0 4px 0 #348628, 0 6px 1px 1px rgba(0,0,0,.3), 0 8px 0 5px #2a6d20, 0 10px 0 5px #39822e, 0 13px 0 5px #1d4c16, 0 13px 1px 6px rgba(0,0,0,.3);
   }
 
+  #dado1{
+    width:40px;
+    height:30px;
+    border-radius:2px;
+    text-align:center;
+    border-color:gray;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 0 0.4em gray;
+    background:#FAFAFA;
+    padding: 10px 0px 0px 0px;
+  }
+
+  #dado2{
+    width:40px;
+    height:30px;
+    position:absolute;
+    box-shadow: 0 0 0.4em gray;
+    text-align:center;
+    border-radius:2px;
+    font-family: 'Roboto', sans-serif;
+    border-color:gray;
+    margin-left:50px;
+    margin-top:-40px;
+    background:#FAFAFA;
+    padding: 10px 0px 0px 0px;
+  }
+
+  .dados-content{
+    margin-left: 9px;
+  }
+
   .row {
     clear: both;
     margin-left: -32px;
@@ -114,7 +145,7 @@ body{
     float: left;
     margin-left: 33px;
     margin-top: 35px;
-    /*border:1px solid; */
+    border:1px solid;
   }
   
 	.row:after,.row div:after,.jogador:after,#tabuleiro:after, #statistics:after {
@@ -146,13 +177,13 @@ body{
 	  }
 	}
   
-  .jogador {
+	.jogador {
 	  width: 30px;
 	  height: 30px;
 	  border-radius: 20px;
 	  position: absolute;
-	  top: -145px;
-	  left: 480px;
+	  top: 35px;
+	  left: 840px;
 	  border: 1px solid #f0f0f0;
 	  box-shadow: -1px -1px 16px 1px #666, 1px 1px 16px 1px #bbb;
 	  -webkit-transition: left 3s, top 3s; /* For Safari 3.1 to 6.0 */
@@ -185,7 +216,8 @@ body{
 
 @media(max-width:1300px){
   .content{
-    margin-top: -780px;
-    margin-left:47.5%;
+    margin-top: -440px;
+    margin-left:84.5%;
   }
+
 }
