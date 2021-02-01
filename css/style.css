@@ -145,7 +145,7 @@ body{
     float: left;
     margin-left: 33px;
     margin-top: 35px;
-    border:1px solid;
+    /*border:1px solid; */
   }
   
 	.row:after,.row div:after,.jogador:after,#tabuleiro:after, #statistics:after {
@@ -183,7 +183,7 @@ body{
 	  border-radius: 20px;
 	  position: absolute;
 	  top: 35px;
-	  left: 840px;
+	  left: 30px;
 	  border: 1px solid #f0f0f0;
 	  box-shadow: -1px -1px 16px 1px #666, 1px 1px 16px 1px #bbb;
 	  -webkit-transition: left 3s, top 3s; /* For Safari 3.1 to 6.0 */

@@ -102,10 +102,18 @@ CobrasEscadas.jogar = {
             //debugger;
             //$("#player" + idOfplayerTurn).appendTo("#cell_" + currentPosition);
             var $cell = $("#cell_" + currentPosition);
-            $("#player" + idOfplayerTurn).css({
-                'left': $cell.position().left + 840,
-                'top': $cell.position().top + 35
-            });
+            if (screen.width < 1290) {
+                $("#player" + idOfplayerTurn).css({
+                    'left': $cell.position().left + 248,
+                    'top': $cell.position().top + 120
+                });
+            } else {
+                $("#player" + idOfplayerTurn).css({
+                    'left': $cell.position().left + 550,
+                    'top': $cell.position().top + 110
+                });
+            }
+
             $("#playerLegend" + idOfplayerTurn).find('span').text(currentPosition); //currentPosition  
 
             /*var re = /(\d)/;
